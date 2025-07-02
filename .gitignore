@@ -1,0 +1,110 @@
+# Node
+node_modules/
+
+
+# Extension packaging
+*.vsix
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+
+# Env
+.env
+
+# --- Node.js related files ---
+/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/ # If using pnpm
+
+# --- Compilation and Build Artifacts ---
+/dist/
+/build/
+/out/
+/lib/ # Often for compiled JS, Python wheels, or similar outputs
+/coverage/ # Test coverage reports
+
+# --- Environment Configuration ---
+.env
+.env.*
+!.env.example # Keep the example for reference, but ignore specific .env files
+
+# --- Log files ---
+*.log
+
+# --- Operating System Generated Files ---
+.DS_Store # macOS
+Thumbs.db # Windows
+ehthumbs.db # Windows
+.directory # Linux (KDE specific)
+Desktop.ini # Windows
+*.lnk # Windows shortcuts
+
+# --- Temporary Files & Editor Backups ---
+*.tmp
+*.bak
+*.swp # Vim swap files
+*.swo # Vim swap files
+*~ # Emacs backup files
+# Various editor backup/temporary files
+# .*~
+# .#*
+# %.%
+
+# --- Python specific files (if applicable) ---
+__pycache__/
+*.pyc
+*.pyd
+.venv/ # Python virtual environments
+/env/ # Common alternative for Python virtual environments
+/venv/ # Common alternative for Python virtual environments
+
+# --- Java specific files (if applicable) ---
+/bin/
+/target/ # Maven build output
+.classpath
+.project
+.settings/ # Eclipse settings
+*.jar
+*.war
+*.ear
+
+# --- C# / .NET specific files (if applicable) ---
+/bin/
+/obj/
+*.user
+*.suo
+*.vspscc
+*.vssscc
+*.csproj.user
+*.resharper
+*.dotSettings
+
+# --- Other common IDE/Editor specific files ---
+.idea/ # IntelliJ / WebStorm / PhpStorm
+*.sublime-project # Sublime Text
+*.sublime-workspace # Sublime Text
+.history/ # VS Code local history (if enabled)
+
+# --- Docker related files (if applicable) ---
+.dockerignore # This file should usually be committed, but sometimes seen mistakenly added here.
+# For temporary Docker build contexts or generated files if not managed otherwise
+# .docker-build/
+# docker-compose.override.yml # If it's for local specific override not to be committed
+
+# --- Package Manager Cache / Lock Files (optional, depend on project setup) ---
+# It's usually good practice to commit lock files (package-lock.json, yarn.lock, pnpm-lock.yaml)
+# but if you have a very specific reason to ignore them for temporary local development:
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# --- Miscellaneous generated files (add as needed) ---
+# Example for static site generators like Jekyll or Hugo:
+# /_site/
+# /public/
