@@ -38,3 +38,25 @@ Ignore single line commments //
 4. Symbol is colored by color 2.
 5. Symbol can be jumped to the definition. 
 6. Hovering symbol shows rhs of a symbol defitnition.
+
+
+## How to publish
+
+- `npm install -g @vscode/vsce`
+
+- `npm install -g ovsx`
+
+### Build Extension Locally
+
+- `npm run compile && vsce package`
+
+### VSCode marketplace
+
+- `vsce login <your-publisher-name>`
+- `vsce package`
+- `vsce publish`
+
+
+### Open VSX
+
+- `ovsx publish -p <your-open-vsx-token>`
