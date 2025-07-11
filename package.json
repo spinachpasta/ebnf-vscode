@@ -22,7 +22,9 @@
   "engines": {
     "vscode": ">=1.70.0"
   },
-  "categories": ["Programming Languages"],
+  "categories": [
+    "Programming Languages"
+  ],
   "activationEvents": [
     "onLanguage:bnf",
     "*"
@@ -32,8 +34,14 @@
     "languages": [
       {
         "id": "bnf",
-        "aliases": ["BNF", "bnf"],
-        "extensions": [".bnf", ".ebnf"],
+        "aliases": [
+          "BNF",
+          "bnf"
+        ],
+        "extensions": [
+          ".bnf",
+          ".ebnf"
+        ],
         "configuration": "./language-configuration.json"
       }
     ],
@@ -53,7 +61,7 @@
   },
   "devDependencies": {
     "@types/vscode": "^1.70.0",
-    "typescript": "^4.7.0",
+    "typescript": "^4.9.5",
     "vscode": "^1.1.37"
   }
 }
