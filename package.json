@@ -1,9 +1,24 @@
 {
   "name": "bnf-highlight-vscode",
-  "displayName": "(E)BNF Highlight",
-  "description": "Semantic highlighting and outline for EBNF grammar files.",
+  "displayName": "BNF Highlight",
+  "description": "Semantic highlighting and outline for BNF grammar files.",
   "version": "0.0.1",
-  "publisher": "spinachpasta",
+  "publisher": "your-publisher-name",
+  "license": "GPL-3.0-only",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spinachpasta/ebnf-vscode.git"
+  },
+  "bugs": {
+    "url": "https://github.com/spinachpasta/ebnf-vscode/issues"
+  },
+  "keywords": [
+    "bnf",
+    "ebnf",
+    "grammar",
+    "syntax",
+    "highlighting"
+  ],
   "engines": {
     "vscode": ">=1.70.0"
   },
